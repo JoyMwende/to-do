@@ -1,0 +1,46 @@
+.todo{
+    display: flex;
+  align-items: center;
+ 
+
+}
+ul{
+  list-style-type: none; 
+
+}
+
+.do{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  background-color: rgb(219, 211, 211);
+  margin: auto;
+  padding: 20px;
+}
+
+.mark{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.btn button{
+  width: 100px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.btnEdit{
+  background-color: rgb(95, 175, 95);
+}
+.btnDelete{
+  background-color: rgb(240, 18, 18);
+}

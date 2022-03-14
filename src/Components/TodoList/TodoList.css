@@ -1,0 +1,9 @@
+.content{
+    background-color: white;
+    display: flex;
+    align-items: center;
+   
+}
+Todos{
+    list-style-type: none;
+}
